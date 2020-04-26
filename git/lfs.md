@@ -1,3 +1,3 @@
-##Git Large File Storage (LFS)
+## Git Large File Storage (LFS)
 
 to use: 
