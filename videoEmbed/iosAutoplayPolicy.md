@@ -8,3 +8,5 @@ this would play
 
 this wouldn't
 `This does nothing on iOS: `<body onload="document.myMovie.play()">`
+
+More information [here](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html#//apple_ref/doc/uid/TP40009523-CH5-SW4)
