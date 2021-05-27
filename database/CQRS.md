@@ -5,14 +5,14 @@ Using a different model to update information than the model you use to read inf
 ### The mainstream approach for interacting with an information system
 The mainstream approach is to treat it as a CRUD datastore, there is mental model of some record structure to create new records, read records, update existing records and detle records. Interaction defined by STORING and RETRIEVING these records. 
 
-[graph - cqrs1](../assets/images/cqrs1.png)
+![graph - cqrs1](../assets/images/cqrs1.png)
 
 ### CQRS
 comparable to collapsing multiple records into one, or forming virtual records by combining information for different places. 
 
 Users may interact with various presentations of information. 
 
-[graph - cqrs2](../assets/images/cqrs2.png)
+![graph - cqrs2](../assets/images/cqrs2.png)
 
 Separate models for update and display. Because for many problems, particularly in more complicated domains, having the same conceptual model for commands and queries leads to a more complex model that does neither well. 
 
